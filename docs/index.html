@@ -7,14 +7,23 @@
                 background-color: red;
             }
         </style>
+        <script>
+            function changeColor() {
+                document.getElementById("titleID").style.color = "blue";
+            }
+        </script>
     </head>
     <body>
-        <h1>HW1 Submission</h1>
+        <h1 id="titleID">HW1 Submission</h1>
         <p>With this course, I hope to gain a few things. First, to learn how to properly <strong>create</strong> a website with JavaScript, CSS, and HTML.
             Second, I hope to <strong>gain</strong> <em>knowledge</em> about websites so I can <em>help</em> companies with their websites, if needed.
         </p>
-        <!--Need to add button tag-->
-        <img src="image0.png" alt="A picture of two Australian Labradoodles in a barrel.">
-        <a href="https://www.instagram.com/p/CgLZwS3Les1/?utm_source=ig_web_copy_link">Image of Two Australian Labradoodles</a>
+        <p>
+            <button onclick="changeColor()">Change title background color!</button>
+        </p>
+        <img src="image0.png" height="550" width="250" alt="A picture of two Australian Labradoodles in a barrel.">
+        <p>
+            <a href="https://www.instagram.com/p/CgLZwS3Les1/?utm_source=ig_web_copy_link">Image of Two Australian Labradoodles</a>
+        </p>
     </body>
 </html>
